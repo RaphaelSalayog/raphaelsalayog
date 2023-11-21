@@ -11,7 +11,7 @@ import { setIsFormSubmit } from "@/store/reducers/buttonSlice";
 import { useInView } from "react-intersection-observer";
 
 const ContactContent = () => {
-  const [ref, view] = useInView({ threshold: 0.4, triggerOnce: true });
+  const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
   const dispatch = useDispatch();
 
   const [name, setName] = useState("");
@@ -48,7 +48,7 @@ const ContactContent = () => {
       >
         <div
           ref={ref}
-          className="grid grid-cols-3 h-auto w-[60%] shadow-2xl max-w-[1110px] min-w-[304px] | max-2xl:w-[80%] | max-md:grid-rows-5 max-md:grid-cols-1 max-md:h-[830px] max-md:w-[60%] | max-[642px]:w-[70%] | max-[642px]:w-[95%] | max-[375px]:grid-rows-5"
+          className="grid grid-cols-3 h-auto w-[60%] shadow-2xl max-w-[1110px] min-w-[304px] m-[2rem] | max-2xl:w-[80%] | max-md:grid-rows-5 max-md:grid-cols-1 max-md:h-[830px] max-md:w-[60%] | max-[642px]:w-[70%] | max-[642px]:w-[95%] | max-[375px]:grid-rows-5"
         >
           <div className="flex flex-col justify-center bg-[#0b0a14] p-10 text-left rounded-tl-lg rounded-bl-lg | max-lg:p-8 | max-md:row-span-2 max-md:rounded-bl-sm max-md:rounded-tr-lg | max-[375px]:row-span-2 max-[375px]:p-6">
             <div
@@ -68,7 +68,6 @@ const ContactContent = () => {
                 <img
                   src={iconCall.src}
                   alt="Icon Phone"
-                  loading="lazy"
                   className="flex h-[2.5rem] mr-[5px]"
                 />
                 <p>{`(+63) 945 147 2698`}</p>
@@ -77,7 +76,6 @@ const ContactContent = () => {
                 <img
                   src={iconAddress.src}
                   alt="Icon Address"
-                  loading="lazy"
                   className="h-[2.5rem] mr-[5px]"
                 />
                 <p>{`San Jose del Monte, Bulacan`}</p>
@@ -96,7 +94,6 @@ const ContactContent = () => {
                 <img
                   src={iconMail.src}
                   alt="Icon Email"
-                  loading="lazy"
                   className="w-[2.5rem] hover:scale-125 duration-300"
                 />
               </Link>
@@ -107,7 +104,6 @@ const ContactContent = () => {
                 <img
                   src={iconFacebook.src}
                   alt="Icon Facebook"
-                  loading="lazy"
                   className="w-[2.5rem] hover:scale-125 duration-300"
                 />
               </Link>
@@ -118,7 +114,6 @@ const ContactContent = () => {
                 <img
                   src={iconLinkedin.src}
                   alt="Icon LinkedIn"
-                  loading="lazy"
                   className="w-[2.5rem] hover:scale-125 duration-300"
                 />
               </Link>

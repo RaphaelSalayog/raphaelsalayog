@@ -2,7 +2,7 @@ import imageProfile from "@/assets/gad-pic-nb.png";
 import { useInView } from "react-intersection-observer";
 
 const AboutMe = () => {
-  const [ref, view] = useInView({ threshold: 0.4, triggerOnce: true });
+  const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
 
   return (
     <>
@@ -25,7 +25,6 @@ const AboutMe = () => {
             <img
               src={imageProfile.src}
               alt="Profile Picture"
-              loading="lazy"
               className="w-full min-h-full object-cover | max-lg:w-[100%] max-lg:min-h-[50%] max-lg:self-center max-lg:rounded-full max-lg:border max-lg:border-2 max-lg:border-white"
             />
           </div>
@@ -37,7 +36,7 @@ const AboutMe = () => {
             <h1 className="mb-4">About Me</h1>
             <p className="text-justify">
               I'am Raphael Salayog, an aspiring web developer. I am a
-              hard-working, continuous learning, creative, and proactive
+              hard-working, continuous learner, creative, and proactive
               individual. I constantly strive to improve my skills by learning
               new things and trying different methods of doing things.
             </p>

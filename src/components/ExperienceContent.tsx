@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 
 const ExperienceContent = () => {
-  const [ref, view] = useInView({ threshold: 0.4, triggerOnce: true });
+  const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
   return (
     <>
       <section className="relative flex justify-center items-center bg-[url('../assets/team-collaboration1.jpg')] bg-cover bg-center h-screen -z-2 overflow-hidden">
@@ -35,7 +35,6 @@ const ExperienceContent = () => {
                 <img
                   src={logoXurpas.src}
                   alt="Logo Xurpas"
-                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </Link>
@@ -52,7 +51,7 @@ const ExperienceContent = () => {
                 <p className="mb-3 | max-md:mb-2">Makati, Philippines</p>
                 <ul className="ml-5 list-disc text-justify">
                   <li>
-                    Participate actively in daily stand-up meetings in
+                    Participated actively in daily stand-up meetings in
                     accordance with agile development principles in order to
                     report on progress, spot any obstacles, and work with the
                     development team to jointly organize the day's tasks.
@@ -63,7 +62,7 @@ const ExperienceContent = () => {
                     Next.js, TypeScript, GraphQL, Ant Design, and version
                     control through Bitbucket.
                   </li>
-                  <li>Collaborate with other development teams.</li>
+                  <li>Collaborated with other development teams.</li>
                   <li>Completed React.js training course in Udemy.</li>
                 </ul>
               </div>

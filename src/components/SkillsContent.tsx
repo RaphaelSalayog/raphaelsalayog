@@ -80,7 +80,7 @@ const skills = [
 ];
 
 const SkillsContent = () => {
-  const [ref, view] = useInView({ threshold: 0.3, triggerOnce: true });
+  const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
   let delay = 0.4;
   return (
     <>
