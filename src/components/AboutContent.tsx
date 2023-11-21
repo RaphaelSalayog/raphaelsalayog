@@ -35,7 +35,7 @@ const AboutMe = () => {
           >
             <h1 className="mb-4">About Me</h1>
             <p className="text-justify">
-              I'am Raphael Salayog, an aspiring web developer. I am a
+              I am Raphael Salayog, an aspiring web developer. I am a
               hard-working, continuous learner, creative, and proactive
               individual. I constantly strive to improve my skills by learning
               new things and trying different methods of doing things.
