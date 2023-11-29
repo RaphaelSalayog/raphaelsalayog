@@ -2,7 +2,8 @@ import imageProfile from "@/assets/gad-pic-nb.png";
 import { useInView } from "react-intersection-observer";
 
 const AboutMe = () => {
-  const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
+  const [ref, view] = useInView({ triggerOnce: true });
+  // const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
 
   return (
     <>

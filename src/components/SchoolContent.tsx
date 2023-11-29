@@ -3,7 +3,8 @@ import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 
 const SchoolContent = () => {
-  const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
+  const [ref, view] = useInView({ triggerOnce: true });
+  // const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
   return (
     <>
       <section
@@ -55,8 +56,8 @@ const SchoolContent = () => {
                 <ul className="ml-5 list-disc text-justify">
                   <li>Graduated with Cum Laude</li>
                   <li>
-                    Accomplished the development of Sales and Inventory with
-                    Decision Support and Ordering System for a Pet Shop
+                    Accomplished the development of Ordering and Inventory
+                    Management with Decision Support System for a pet shop.
                   </li>
                   <li>
                     Developed strong foundational knowledge in Java, HTML, CSS,

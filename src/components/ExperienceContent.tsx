@@ -3,7 +3,8 @@ import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 
 const ExperienceContent = () => {
-  const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
+  const [ref, view] = useInView({ triggerOnce: true });
+  // const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
   return (
     <>
       <section className="relative flex justify-center items-center bg-[url('../assets/team-collaboration1.jpg')] bg-cover bg-center h-screen -z-2 overflow-hidden">

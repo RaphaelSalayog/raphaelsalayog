@@ -1,7 +1,8 @@
 import { useInView } from "react-intersection-observer";
 
 const HomeContent = () => {
-  const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
+  const [ref, view] = useInView({ triggerOnce: true });
+  // const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
 
   const buttonHandler = () => {
     const link = document.createElement("a");
