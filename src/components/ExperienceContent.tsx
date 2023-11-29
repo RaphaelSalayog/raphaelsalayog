@@ -36,6 +36,7 @@ const ExperienceContent = () => {
                 <img
                   src={logoXurpas.src}
                   alt="Logo Xurpas"
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </Link>

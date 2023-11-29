@@ -19,6 +19,7 @@ const CustomCard: React.FC<CustomCard> = ({ title, image, delay, view }) => {
         <img
           src={image}
           alt={`Logo ${title}`}
+          loading="lazy"
           className="w-full max-h-full object-cover p-1"
         />
         <h1 className="flex justify-center items-center px-1 pb-1">{title}</h1>

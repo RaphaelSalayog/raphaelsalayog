@@ -69,6 +69,7 @@ const ContactContent = () => {
                 <img
                   src={iconCall.src}
                   alt="Icon Phone"
+                  loading="lazy"
                   className="flex h-[2.5rem] mr-[5px]"
                 />
                 <p>{`(+63) 945 147 2698`}</p>
@@ -77,6 +78,7 @@ const ContactContent = () => {
                 <img
                   src={iconAddress.src}
                   alt="Icon Address"
+                  loading="lazy"
                   className="h-[2.5rem] mr-[5px]"
                 />
                 <p>{`San Jose del Monte, Bulacan`}</p>
@@ -95,6 +97,7 @@ const ContactContent = () => {
                 <img
                   src={iconMail.src}
                   alt="Icon Email"
+                  loading="lazy"
                   className="w-[2.5rem] hover:scale-125 duration-300"
                 />
               </Link>
@@ -105,6 +108,7 @@ const ContactContent = () => {
                 <img
                   src={iconFacebook.src}
                   alt="Icon Facebook"
+                  loading="lazy"
                   className="w-[2.5rem] hover:scale-125 duration-300"
                 />
               </Link>
@@ -115,6 +119,7 @@ const ContactContent = () => {
                 <img
                   src={iconLinkedin.src}
                   alt="Icon LinkedIn"
+                  loading="lazy"
                   className="w-[2.5rem] hover:scale-125 duration-300"
                 />
               </Link>

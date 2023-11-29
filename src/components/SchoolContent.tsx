@@ -39,6 +39,7 @@ const SchoolContent = () => {
                 <img
                   src={logoSti.src}
                   alt="Logo STI"
+                  loading="lazy"
                   className="w-full max-h-full object-cover"
                 />
               </Link>
