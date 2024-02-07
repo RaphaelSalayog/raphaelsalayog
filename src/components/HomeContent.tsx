@@ -6,7 +6,7 @@ const HomeContent = () => {
 
   const buttonHandler = () => {
     const link = document.createElement("a");
-    link.href = "/SALAYOG-RAPHAEL-EARL-RESUME.pdf";
+    link.href = "/SALAYOG-RAPHAEL-RESUME.pdf";
     link.download = "SALAYOG-RAPHAEL-EARL-RESUME.pdf";
     document.body.appendChild(link);
     link.click();
