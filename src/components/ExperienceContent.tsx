@@ -7,13 +7,13 @@ const ExperienceContent = () => {
   // const [ref, view] = useInView({ threshold: 0.2, triggerOnce: true });
   return (
     <>
-      <section className="relative flex justify-center items-center bg-[url('../assets/team-collaboration1.jpg')] bg-cover bg-center h-screen -z-2 overflow-hidden">
+      <section
+        ref={ref}
+        className="relative flex justify-center items-center bg-[url('../assets/team-collaboration1.jpg')] bg-cover bg-center h-screen -z-2 overflow-hidden"
+      >
         <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 -z-1" />
 
-        <div
-          ref={ref}
-          className="absolute w-3/4 min-w-[313px] max-w-[96rem] | max-md:w-[80%] | max-md:w-[85%] | max-[375px]:w-[90%] | max-[320px]:w-[98%] overflow-hidden"
-        >
+        <div className="absolute w-3/4 min-w-[313px] max-w-[96rem] | max-md:w-[80%] | max-md:w-[85%] | max-[375px]:w-[90%] | max-[320px]:w-[98%] overflow-hidden">
           <h1
             className={`${
               view && "animate-scale-forward-title"

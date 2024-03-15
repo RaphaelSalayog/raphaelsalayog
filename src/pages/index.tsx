@@ -10,6 +10,7 @@ import { useSelector } from "react-redux";
 
 import ErrorModal from "@/components/modals/ErrorModal";
 import HamburgerMenu from "@/components/navigation/HamburgerMenu";
+import Projects from "@/components/Projects";
 
 export default function Home() {
   const isFormSubmit = useSelector((store: any) => store.button.isFormSubmit);
@@ -37,6 +38,7 @@ export default function Home() {
         <ExperienceContent />
         <SkillsContent />
         <SchoolContent />
+        <Projects />
         <ContactContent />
       </main>
       <footer>
