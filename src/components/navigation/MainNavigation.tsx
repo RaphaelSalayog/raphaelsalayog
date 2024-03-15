@@ -71,6 +71,13 @@ const MainNavigation = (props: any) => {
           </Link>
 
           <Link
+            href={"/#project"}
+            className="flex items-center justify-center flex-1 text-center cursor-pointer hover:font-bold hover:border-b-[3px]"
+          >
+            PROJECT
+          </Link>
+
+          <Link
             href={"/#contact"}
             className="flex items-center justify-center flex-1 text-center cursor-pointer hover:font-bold hover:border-b-[3px]"
           >
