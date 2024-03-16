@@ -14,6 +14,11 @@ import imageGit from "@/assets/skills/git.svg";
 import imageTypescript from "@/assets/skills/typescript.svg";
 import imageTailwind from "@/assets/skills/tailwind.svg";
 import imageBootstrap from "@/assets/skills/bootstrap.svg";
+import imageNodeJS from "@/assets/skills/nodejs.svg";
+import imageExpressJS from "@/assets/skills/expressjs.svg";
+import imageMongoDB from "@/assets/skills/mongodb.svg";
+import imageSocketIO from "@/assets/skills/socketio.svg";
+import imagePostman from "@/assets/skills/postman.svg";
 import { useInView } from "react-intersection-observer";
 
 const skills = [
@@ -30,6 +35,10 @@ const skills = [
     image: imageJavasrcipt.src,
   },
   {
+    title: "TypeScript",
+    image: imageTypescript.src,
+  },
+  {
     title: "React.js",
     image: imageReactJS.src,
   },
@@ -38,16 +47,28 @@ const skills = [
     image: imageRedux.src,
   },
   {
-    title: "TypeScript",
-    image: imageTypescript.src,
-  },
-  {
     title: "Next.js",
     image: imageNextJS.src,
   },
   {
+    title: "Node.js",
+    image: imageNodeJS.src,
+  },
+  {
+    title: "Express.js",
+    image: imageExpressJS.src,
+  },
+  {
+    title: "MongoDB",
+    image: imageMongoDB.src,
+  },
+  {
     title: "GraphQL",
     image: imageGraphQL.src,
+  },
+  {
+    title: "Socket.io",
+    image: imageSocketIO.src,
   },
   {
     title: "Java",
@@ -56,6 +77,10 @@ const skills = [
   {
     title: "MySQL",
     image: imageMySQL.src,
+  },
+  {
+    title: "Postman",
+    image: imagePostman.src,
   },
   {
     title: "Git",
