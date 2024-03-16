@@ -21,7 +21,7 @@ const Projects = () => {
           - Project -
         </h1>
         <div className="w-[30%] min-w-[304px] border border-4 border-[#0b0a14] bg-[#0b0a14] rounded-lg overflow-hidden | max-[1250px]:w-[40%] | max-lg:w-[50%] | max-md:w-[60%] | max-[640px]:w-[90%]">
-          <img src={project1.src} />
+          <img alt="Sales and Inventory Management System" src={project1.src} />
           <div className="p-[2rem] | max-[425px]:p-[1rem]">
             <div className={`${view && "animate-fade-left-to-right-content1"}`}>
               <p className="text-2xl pb-7">

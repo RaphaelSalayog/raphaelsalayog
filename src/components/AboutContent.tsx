@@ -26,7 +26,6 @@ const AboutMe = () => {
             <img
               src={imageProfile.src}
               alt="Profile Picture"
-              loading="lazy"
               className="w-full min-h-full object-cover | max-lg:w-[100%] max-lg:min-h-[50%] max-lg:self-center max-lg:rounded-full max-lg:border max-lg:border-2 max-lg:border-white"
             />
           </div>

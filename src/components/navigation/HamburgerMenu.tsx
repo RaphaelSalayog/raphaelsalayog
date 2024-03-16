@@ -35,7 +35,6 @@ const HamburgerMenu = () => {
             <img
               src={logoRS.src}
               alt="Logo RS"
-              loading="lazy"
               className="object-cover w-full h-full"
             />
           </Link>

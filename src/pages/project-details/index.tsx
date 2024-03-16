@@ -49,25 +49,23 @@ const ProjectDetails = () => {
               <Link
                 href={"https://github.com/RaphaelSalayog/zyamura"}
                 target="_blank"
+                className="w-[30%] bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 mr-2 rounded shadow-lg text-center"
               >
-                <button className="w-[205px] bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 mr-2 rounded shadow">
-                  Frontend Source Code
-                </button>
+                <button>Frontend Source Code</button>
               </Link>
               <Link
                 href={
                   "https://github.com/RaphaelSalayog/zyamura-backend-expressjs"
                 }
                 target="_blank"
+                className="w-[30%] bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow-lg text-center"
               >
-                <button className="w-[205px] bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow">
-                  Backend Source Code
-                </button>
+                <button>Backend Source Code</button>
               </Link>
             </div>
           </div>
 
-          <video controls autoPlay loop className="w-[50%]">
+          <video controls className="w-[50%]">
             <source src="/project1Video.mp4" type="video/mp4" />
           </video>
         </div>
