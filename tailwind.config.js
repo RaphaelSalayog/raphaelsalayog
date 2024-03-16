@@ -23,7 +23,7 @@ module.exports = {
         "scale-forward-title": "scale-forward 0.8s ease-out both 0.2s",
         "scale-forward-content1": "scale-forward 0.8s ease-out backwards 0.4s",
         "fade-left-to-right-content1":
-          "fade-left-to-right 0.8s ease-out both 0.4s",
+          "fade-left-to-right 0.8s ease-out backwards 0.4s",
         "spin-scale-forward-content1":
           "spin-scale-forward 1s ease-out backwards 0.4s",
         "fade-bottom-to-top-content2":
