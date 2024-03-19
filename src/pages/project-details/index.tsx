@@ -66,7 +66,7 @@ const ProjectDetails = () => {
           </div>
 
           <div className="w-[50%] flex-item | max-xl:w-[70%] max-xl:order-1 | max-md:max-xl:w-[100%]">
-            <video controls>
+            <video controls className="w-[100%]">
               <source src="/zyamura-website.mp4" type="video/mp4" />
             </video>
           </div>
