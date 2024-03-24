@@ -7,7 +7,7 @@ import imageNextJS from "@/assets/skills/nextjs.svg";
 import imageJava from "@/assets/skills/java.svg";
 import imageMySQL from "@/assets/skills/MySQL.svg";
 import imageAntd from "@/assets/skills/antdesign.svg";
-import imageBitbucket from "@/assets/skills/bitbucket.svg";
+import imageGithub from "@/assets/skills/github.svg";
 import imageRedux from "@/assets/skills/redux.svg";
 import imageGraphQL from "@/assets/skills/graphql.svg";
 import imageGit from "@/assets/skills/git.svg";
@@ -87,8 +87,8 @@ const skills = [
     image: imageGit.src,
   },
   {
-    title: "Bitbucket",
-    image: imageBitbucket.src,
+    title: "GitHub",
+    image: imageGithub.src,
   },
   {
     title: "Ant Design",
