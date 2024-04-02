@@ -38,8 +38,8 @@ const AboutMe = () => {
             <p className="text-justify">
               I am Raphael Salayog, an aspiring web developer. I am a
               hard-working, continuous learner, creative, and proactive
-              individual. I constantly strive to improve my skills by learning
-              new things and trying different methods of doing things.
+              individual. I constantly strive to improve my skills through
+              self-study and hands-on implementation of learned concepts.
             </p>
           </div>
         </div>

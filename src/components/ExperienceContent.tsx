@@ -52,10 +52,10 @@ const ExperienceContent = () => {
                 <p className="mb-3 | max-md:mb-2">Makati, Philippines</p>
                 <ul className="ml-5 list-disc text-justify">
                   <li>
-                    Participated actively in daily stand-up meetings in
-                    accordance with agile development principles in order to
-                    report on progress, spot any obstacles, and work with the
-                    development team to jointly organize the day's tasks.
+                    Participated actively in sprint planning and daily stand-up
+                    meetings in accordance with Agile development principles in
+                    order to report on progress, spot any obstacles, and work
+                    with the Scrum team to jointly organize the day's tasks.
                   </li>
                   <li>
                     Developed the front-end of a website by utilizing a tech
