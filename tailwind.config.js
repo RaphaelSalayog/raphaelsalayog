@@ -20,14 +20,13 @@ module.exports = {
         "[#007BFF]": "#007BFF",
       },
       animation: {
-        "scale-forward-title": "scale-forward 0.8s ease-out both 0.2s",
-        "scale-forward-content1": "scale-forward 0.8s ease-out backwards 0.4s",
+        "scale-forward-title": "scale-forward 0.8s ease-out both",
+        "scale-forward-content1": "scale-forward 0.8s ease-out backwards",
         "fade-left-to-right-content1":
-          "fade-left-to-right 0.8s ease-out backwards 0.4s",
+          "fade-left-to-right 0.8s ease-out backwards",
         "spin-scale-forward-content1":
-          "spin-scale-forward 1s ease-out backwards 0.4s",
-        "fade-bottom-to-top-content2":
-          "fade-bottom-to-top 0.8s ease-out both 0.6s",
+          "spin-scale-forward 1s ease-out backwards",
+        "fade-bottom-to-top-content2": "fade-bottom-to-top 0.8s ease-out both",
         "fade-bottom-to-top-card": "fade-bottom-to-top 0.8s ease-out backwards",
       },
       keyframes: {

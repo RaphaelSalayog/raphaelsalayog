@@ -112,10 +112,12 @@ const SkillsContent = () => {
     <>
       <section
         id="skills"
-        ref={ref}
         className="flex justify-center items-center min-h-screen p-[2rem] overflow-hidden"
       >
-        <div className="flex flex-col justify-center items-center min-w-[320px]">
+        <div
+          ref={ref}
+          className="flex flex-col justify-center items-center min-w-[320px]"
+        >
           <h1
             className={`${
               view && "animate-scale-forward-title"

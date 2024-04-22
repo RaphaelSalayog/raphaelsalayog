@@ -8,11 +8,11 @@ const Projects = () => {
   return (
     <>
       <section
-        ref={ref}
         id="project"
         className="relative flex flex-col justify-center items-center min-h-screen overflow-hidden"
       >
         <h1
+          ref={ref}
           className={`${
             view && "animate-scale-forward-title"
           } text-center text-black uppercase mb-5 text-2xl font-bold opacity-0 | max-[375px]:mb-3`}
