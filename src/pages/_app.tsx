@@ -8,7 +8,7 @@ import { useRouter } from "next/router";
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
-  if (router.pathname === "/project-details") {
+  if (router.pathname === "/project-details/[projectId]") {
     return (
       <Provider store={store}>
         <Component {...pageProps} />

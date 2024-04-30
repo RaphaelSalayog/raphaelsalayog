@@ -1,9 +1,30 @@
 import project1 from "@/assets/project1.png";
-import { useRouter } from "next/router";
+import project2 from "@/assets/project2.png";
 import { useInView } from "react-intersection-observer";
+import { Project } from "./project/Project";
+
+const projects = [
+  {
+    image: project1,
+    title: "Sales and Inventory Management System",
+    description: `The Sales and Inventory Management System is a comprehensive
+    software solution designed to streamline the processes of managing
+    sales transactions and inventory levels for businesses. It
+    provides a centralized platform for businesses to efficiently
+    monitor sales activities and track product inventory.`,
+    route: "/project-details/1",
+  },
+  {
+    image: project2,
+    title: "Job Board",
+    description: `A simple job board application is a web-based platform designed to streamline the process of posting and viewing job listings. 
+    I developed this project as a means to hone my skills with Apollo GraphQL.`,
+    route: "/project-details/2",
+  },
+];
+
 const Projects = () => {
   const [ref, view] = useInView({ triggerOnce: true });
-  const router = useRouter();
 
   return (
     <>
@@ -20,34 +41,10 @@ const Projects = () => {
         >
           - Project -
         </h1>
-        <div className="w-[30%] min-w-[304px] border border-4 border-[#0b0a14] bg-[#0b0a14] rounded-lg overflow-hidden | max-[1250px]:w-[40%] | max-lg:w-[50%] | max-md:w-[60%] | max-[640px]:w-[90%]">
-          <img alt="Sales and Inventory Management System" src={project1.src} />
-          <div className="p-[2rem] | max-[425px]:p-[1rem]">
-            <div className={`${view && "animate-fade-left-to-right-content1"}`}>
-              <p className="text-2xl pb-7">
-                Sales and Inventory Management System
-              </p>
-              <p className="pb-4">
-                The Sales and Inventory Management System is a comprehensive
-                software solution designed to streamline the processes of
-                managing sales transactions and inventory levels for businesses.
-                It provides a centralized platform for businesses to efficiently
-                monitor sales activities and track product inventory.
-              </p>
-            </div>
-            <div className="flex justify-end pt-6">
-              <button
-                className={`${
-                  view && "animate-fade-bottom-to-top-content2"
-                } bg-[#eb4a4a] text-white font-inherit font-semibold py-2 px-4 hover:bg-[#d94645]`}
-                onClick={() => {
-                  router.push("/project-details");
-                }}
-              >
-                View Project
-              </button>
-            </div>
-          </div>
+        <div className="flex flex-wrap justify-center items-center items-stretch gap-10">
+          {projects.map((projectDetails) => (
+            <Project projectDetails={projectDetails} title view={view} />
+          ))}
         </div>
       </section>
     </>
