@@ -37,7 +37,7 @@ const project2 = {
     "MySQL",
     "JSON Web Token",
   ],
-  video: "/zyamura-website.mp4",
+  video: "/job-board-website.mp4",
   frontendLink: "https://github.com/RaphaelSalayog/job-board-frontend",
   backendLink: "https://github.com/RaphaelSalayog/job-board-backend-graphql",
 };
