@@ -81,14 +81,14 @@ const ProjectDetails = () => {
             </ul>
             <div className="flex | max-xl:justify-center">
               <Link
-                href={project!.frontendLink}
+                href={project ? project?.frontendLink : ""}
                 target="_blank"
                 className="w-[30%] bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 mr-2 rounded shadow-lg text-center | max-[1550px]:w-[45%]"
               >
                 <button>Frontend Source Code</button>
               </Link>
               <Link
-                href={project!.backendLink}
+                href={project ? project?.backendLink : ""}
                 target="_blank"
                 className="w-[30%] bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded shadow-lg text-center | max-[1550px]:w-[45%]"
               >
